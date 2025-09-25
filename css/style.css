@@ -19,11 +19,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0;
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (max-width: 500px) {
   .media-info-msg {
-    opacity: 1;
+    display: none;
   }
 }
